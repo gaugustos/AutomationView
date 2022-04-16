@@ -8,11 +8,12 @@ body{
 header{
     width: 80%;
     height: 7rem;
+    display: flex;
+    flex-wrap: wrap;
     border-radius: 1rem;
     background-color: #7B6867;
     margin: 1rem 10% 1rem;
     align-items: center;
-    display: inline-block;
     position: relative;
     
 }
@@ -22,6 +23,7 @@ header{
     font-size: 28px;
     font-weight: bold;
     width: max-content;
+    align-items: center;
     color: white;
     margin: auto;
     text-decoration: none;
@@ -55,47 +57,29 @@ nav a{
      
 }
 
-main{
-    height:600px;
- 
+
+.Main_Container{
+display: flex;
+width: 80%;
+height: 500px;
+margin: auto;
 }
 
-.Login{
-  
-    position: relative;
-    height: 100%;
-    width:20%;
+.Frist_Container{
+width: 70%;
+}
+.Secound_Container{
+    width: 30%;
+    background-color: #7B6867;
     border-radius: 1rem;
-    background-color: #D7D7D7;
-    float: right;
-    margin-right: 10%;
-}
-
-
-.Login label{
-    padding: 2rem 5rem;
-    margin: auto;
-    font-size: 21px;
-    font-weight: bold;
-    border-radius: 0.5rem;
+    padding: 2.5rem;
+    align-items: center;
     text-align: center;
-    float: none;
-    position: absolute;
-    top: 150px;
-    left: 15%;
+    align-self: center;
 
+    
 }
-.Login button{
-    padding: 2rem 5rem;
-    margin: auto;
-    border-radius: 0.5rem;
-    text-align: center;
-    float: none;
-    position: absolute;
-    top: 250px;
-    left: 20%;
 
-}
 footer{
     width: 80%;
     height: 7rem;
