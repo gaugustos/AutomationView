@@ -59,15 +59,16 @@ nav a{
 
 
 .Main_Container{
-display: flex;
-width: 80%;
-height: 500px;
-margin: auto;
+    display: flex;
+    width: 80%;
+    height: 500px;
+    margin: auto;
 }
 
 .Frist_Container{
-width: 70%;
+    width: 70%;
 }
+
 .Secound_Container{
     width: 30%;
     background-color: #7B6867;

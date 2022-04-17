@@ -1,0 +1,12 @@
+
+#LoginBorder{
+    width: 100%;
+    background-color: #7B6867;
+    border-radius: 1rem;
+    padding: 2.5rem;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+
+    
+}
