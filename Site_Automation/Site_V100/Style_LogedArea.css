@@ -40,7 +40,8 @@
     background-color: white;
 
 }
-#Board{
+
+.Board{
   margin: 0;
   padding: 0;
   padding: 10px 80px;
@@ -77,15 +78,18 @@
 {
   background-color: #005D9E;
 }
+
 .btn_ON:hover
 {
   background-color: white;
   color: #005D9E;
 }
+
 .btn_OFF
 {
   background-color: #FF4500;
 }
+
 .btn_OFF:hover
 {
   background-color: white;
