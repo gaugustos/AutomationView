@@ -3,56 +3,56 @@
 
   display: flex;
   flex-wrap: wrap;
-  height: 60px;
-  width: 220px;
+  height: 3.75rem;
+  width: 13.5rem;
   margin: auto;
   background-color: #c7c7c7; 
   border-radius: 0.5rem; 
   text-align: center;
   box-sizing:border-box;
-}
-
-.Board_IOs_Control h3{
-  background-color: white;
-  border-radius: 0.5rem;
-  height: 25px;
-  width: 100px;
-  margin-left: 15px;
-  text-align: center;
-  font-size: 14px;
-  font-weight: bold;
-  padding-top: 6px;
+  justify-content: center;
+  align-items: center;
 
 }
 
-.Board_IOs_Control label{
-  align-self: center;
-  padding-left:30px;
-  margin-right: 15px;
-}
   
 .Board_Selection
-{
-    padding: 15px;
+{   
+    justify-content: center;
     top: 0; 
     margin: auto;
     color: black;
     background-color: white;
 
+
 }
+.TextIO{
+
+  left: 0;
+  width: 6.5rem;
+  height: 2rem;
+  border-radius: 4px;
+
+  margin:0;
+  border: none;
+  margin: 0 1rem;
+}
+.NameLabel{
+  display: none;
+}
+
 
 .Board{
   margin: 0;
   padding: 0;
-  padding: 10px 80px;
-  border-radius: 20px;
+  padding: 0.625rem 4rem;
+  border-radius: 1.25rem;
   border-style: none;
 }
 
 .Board_Info{
   width: 100%;
-  height: 430px;
-  margin: 0.1rem;
+  height: 26rem;
   border-radius: 1rem;
   align-self: flex-start;
   background-color: #c7c7c7;
@@ -61,15 +61,15 @@
 .Board_Info h4{
   text-align: center;
   margin: auto;    
-  padding-top: 10px;
+  padding-top: 0.625rem;
   width: 80%;
   border-bottom-style: solid ;
   
 }
 
 .btn{
-  width: 60px;
-  height: 25px;
+  width: 3.75rem;
+  height: 1.56rem;
   border-style: none;
   border-radius: 1rem;
   
@@ -94,4 +94,71 @@
 {
   background-color: white;
   color: #FF4500
+}
+
+@media (max-width: 1200px){
+
+  .Board_Selection
+{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+}
+
+@media (max-width: 800px){
+
+
+  .Board_IOs_Control{
+      display: flex;
+      justify-content: center;
+      margin-top: 0.5rem;
+  flex-wrap: wrap;
+      width: 30rem;
+      height: 100px;
+      }
+  .TextIO{
+  width: 12rem;    
+  }
+  .btn{
+    width:8rem;
+    height: 4rem;
+    margin: auto;
+    margin-left: 3rem;   
+  }
+  
+}
+
+  @media (max-width: 500px){
+    
+    .Board_IOs_Control{
+       
+      width: 100%;
+      padding-top: 1rem;
+      height: 8rem;
+    }
+  
+    
+  
+    .btn{
+      width: 12rem;
+      height: 3rem;
+      margin: 1rem auto;
+
+    }
+}
+
+@media (max-width: 300px){
+  
+  .Board_IOs_Control{
+    
+    width: 100%;
+  }
+  .TextIO{
+    width: 10rem;    
+    }
+  .btn{
+    width: 10rem;
+  }
 }

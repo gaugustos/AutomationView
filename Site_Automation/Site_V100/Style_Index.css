@@ -1,12 +1,88 @@
 
-#LoginBorder{
+.LoginBorder{
     width: 100%;
+    display: flex;
     background-color: #7B6867;
     border-radius: 1rem;
-    padding: 2.5rem;
     align-items: center;
     text-align: center;
-    align-self: center;
+    justify-content: center;
+    height: 5rem;
+    margin-top: 10rem;
+    
+}/*
+.LoginBorder{
+    display: flex;
+    margin: auto;
+    padding: 0;
+    width: 12rem;
+    height: 8rem;
+    align-content: center;
+    margin-top: 10rem;
+    margin-bottom: 0;
+}*/
+
+@media (max-width: 1000px){
 
     
+    .Secound_Container{
+    display:flex;
+    width: 1.5rem;
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    }
+    .LoginBorder{
+
+        border-radius: 0.5rem;
+    }
+
+}
+@media (max-width: 800px){
+
+    
+    .Secound_Container{
+    display:flex;
+    width: 1.5rem;
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    }
+    .LoginBorder{
+
+        border-radius: 0.5rem;
+    }
+
+}
+@media (max-width: 500px){
+
+    
+    .Secound_Container{
+    display:flex;
+    width: 1.5rem;
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    }
+    .LoginBorder{
+
+        border-radius: 0.5rem;
+    }
+
+}
+@media (max-width: 300px){
+
+    
+    .Secound_Container{
+    display:flex;
+    width: 1.5rem;
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    }
+    .LoginBorder{
+
+        border-radius: 0.5rem;
+    }
+
 }
